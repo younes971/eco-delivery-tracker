@@ -71,5 +71,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## EcoDelivery Tracker
 
+EcoDelivery Tracker is a simple web application for small delivery and transport companies.
+The application allows users to manage delivery orders, track delivery status and estimate CO₂ emissions based on delivery distance.
+
+## Features
+- Create delivery orders
+- Track delivery status (Pending, In Transit, Delivered)
+- Manual distance input (km)
+- Simple CO₂ emission estimation
+- React Router based navigation
+
+## Sustainability
+The application supports sustainable development by helping companies organize deliveries more efficiently and by providing a simplified CO₂ emission estimate.
+
 Live demo:
 https://tranquil-quokka-fae4a8.netlify.app/#/
