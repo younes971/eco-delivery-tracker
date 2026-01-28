@@ -1,11 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import DeliveryList from "../components/DeliveryList";
 
 function Home() {
-  const [deliveries, setDeliveries] = useState([
-    { id: 1, delivery_name: "Package A", status: "pending", distance_km: 5 },
-    { id: 2, delivery_name: "Package B", status: "delivered", distance_km: 12 },
-  ]);
+  const [deliveries, setDeliveries] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:5000/deliveries")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("Fetched deliveries:", data);
+        setDeliveries(data);
+      })
+      .catch((err) => console.error("Fetch error:", err));
+  }, []);
 
   const handleStatusChange = (id, newStatus) => {
     setDeliveries(
@@ -16,10 +23,15 @@ function Home() {
   return (
     <>
       <h2>Deliveries</h2>
-      <DeliveryList
-        deliveries={deliveries}
-        onStatusChange={handleStatusChange}
-      />
+
+      {deliveries.length === 0 ? (
+        <p>No deliveries found</p>
+      ) : (
+        <DeliveryList
+          deliveries={deliveries}
+          onStatusChange={handleStatusChange}
+        />
+      )}
     </>
   );
 }
