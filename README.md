@@ -86,7 +86,12 @@ The application supports sustainable development by helping companies organize d
 
 ## CO₂ calculation
 The application calculates estimated CO₂ emissions based on distance 
-==> 1 km = 0.2 kg CO₂.
+==> 1 km = 0.2 kg CO₂
+
+## Application Flow Diagram
+
+Order Created ==> Assigned to Driver ==> Delivery In Transit ==> Delivered ==> Distance Logged ==> CO₂ Emissions Calculated
+
 
 ## Live demo
 https://tranquil-quokka-fae4a8.netlify.app/#/
