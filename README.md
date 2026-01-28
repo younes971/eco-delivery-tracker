@@ -86,7 +86,7 @@ The application supports sustainable development by helping companies organize d
 
 ## CO₂ calculation
 The application calculates estimated CO₂ emissions based on distance 
-==> 1 km = 0.2 kg CO₂
+==> 1km = 0.2 kg CO₂
 
 ## Application Flow Diagram
 
