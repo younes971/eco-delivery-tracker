@@ -84,5 +84,9 @@ The application allows users to manage delivery orders, track delivery status an
 ## Sustainability
 The application supports sustainable development by helping companies organize deliveries more efficiently and by providing a simplified CO₂ emission estimate.
 
+## CO₂ calculation
+The application calculates estimated CO₂ emissions based on distance 
+==> 1 km = 0.2 kg CO₂.
+
 ## Live demo
 https://tranquil-quokka-fae4a8.netlify.app/#/
