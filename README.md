@@ -92,6 +92,14 @@ The application calculates estimated CO₂ emissions based on distance
 
 Order Created ==> Assigned to Driver ==> Delivery In Transit ==> Delivered ==> Distance Logged ==> CO₂ Emissions Calculated
 
+## App structure
+
+Delivery process:
+1. Delivery is created
+2. Distance is added (km)
+3. CO₂ is calculated from distance
+4. Status is updated (Pending / Delivered)
+
 
 ## Live demo
 https://tranquil-quokka-fae4a8.netlify.app/#/
