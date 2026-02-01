@@ -102,8 +102,11 @@ Delivery process:
 
 
 ## Live demo
+
 https://tranquil-quokka-fae4a8.netlify.app/#/
 
 ## React 2
+
 Deployed version updated
+
 https://tranquil-quokka-fae4a8.netlify.app/#/
