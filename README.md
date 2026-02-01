@@ -101,12 +101,18 @@ Delivery process:
 4. Status is updated (Pending / Delivered)
 
 
-## Live demo
+## Netlify link
 
 https://tranquil-quokka-fae4a8.netlify.app/#/
 
-## React 2
+## React 1
+- Routing with react-router
+- State and props
+- Deployed application
 
-Deployed version updated
+## React 2
+- Forms and controlled inputs
+- Shared state with useState and props
+- Deployed version updated
 
 https://tranquil-quokka-fae4a8.netlify.app/#/
