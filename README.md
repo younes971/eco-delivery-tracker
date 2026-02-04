@@ -117,7 +117,7 @@ https://tranquil-quokka-fae4a8.netlify.app/#/
 
 https://tranquil-quokka-fae4a8.netlify.app/#/
 
-Netlify link paused due to platform limits
+Netlify link paused ===> platform limits
 
 GitHub:
 
