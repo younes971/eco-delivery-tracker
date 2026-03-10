@@ -69,22 +69,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+## React 1
+
+- Routing with react-router
+  
+- State and props
+  
+- Deployed application
+
 ## EcoDelivery Tracker
 
 EcoDelivery Tracker is a simple web application for small delivery and transport companies.
 The application allows users to manage delivery orders, track delivery status and estimate CO₂ emissions based on delivery distance.
 
 ## Features
+
 -Create delivery orders
+
 -Track delivery status (Pending, In Transit, Delivered)
+
 -Manual distance input (km)
+
 -Calculate CO₂ emissions from distance
+
 -Simple navigation using React Router
 
 ## Sustainability
+
 The application supports sustainable development by helping companies organize deliveries more efficiently and by providing a simplified CO₂ emission estimate.
 
 ## CO₂ calculation
+
 The application calculates estimated CO₂ emissions based on distance 
 ==> 1km = 0.2 kg CO₂
 
@@ -95,28 +110,31 @@ Order Created ==> Assigned to Driver ==> Delivery In Transit ==> Delivered ==> D
 ## App structure
 
 Delivery process:
-1. Delivery is created
-2. Distance is added (km)
-3. CO₂ is calculated from distance
-4. Status is updated (Pending / Delivered)
+
+-Delivery is created
+
+-Distance is added (km)
+ 
+-CO₂ is calculated from distance
+
+-Status is updated (Pending / Delivered)
 
 
 ## Netlify link
 
 https://tranquil-quokka-fae4a8.netlify.app/#/
 
-## React 1
-- Routing with react-router
-- State and props
-- Deployed application
 
 ## How to run Locally
+
 ### Backend
 
 Open terminal in the server folder:
 
 cd server
+
 npm install
+
 npm start
 
 The server runs on port 5000
@@ -126,6 +144,7 @@ The server runs on port 5000
 Open terminal in the main project folder:
 
 npm install
+
 npm start
 
 Open the browser at http://localhost:3000
@@ -133,14 +152,19 @@ Open the browser at http://localhost:3000
 ## Technologies
 
  React (frontend)
+ 
  React Router (navigation)
+ 
  Node.js + Express (backend API)
+ 
  CORS
+ 
  CSS / simple styling
 
  ## Test user
 
 The application does not require login.
+
 No authentication required.
 
 ## Backend API
@@ -152,11 +176,13 @@ API endpoint used in the application:
 GET /deliveries
 
 URL:
+
 http://localhost:5000/deliveries
 
 ## API Documentation
 
 GET /deliveries:
+
 returns a list of deliveries.
 
 [
@@ -177,7 +203,9 @@ Delivery data is stored in the backend server (server.js).
 ## Issues
 
 Data is not persistent because backend
+
 stores deliveries in memory. When the server
+
 restarts, the data resets.
 
 ## References
