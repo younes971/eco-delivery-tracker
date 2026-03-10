@@ -75,11 +75,11 @@ EcoDelivery Tracker is a simple web application for small delivery and transport
 The application allows users to manage delivery orders, track delivery status and estimate CO₂ emissions based on delivery distance.
 
 ## Features
-- Create delivery orders
-- Track delivery status (Pending, In Transit, Delivered)
-- Manual distance input (km)
-- Simple CO₂ emission estimation
-- React Router based navigation
+-Create delivery orders
+-Track delivery status (Pending, In Transit, Delivered)
+-Manual distance input (km)
+-Calculate CO₂ emissions from distance
+-Simple navigation using React Router
 
 ## Sustainability
 The application supports sustainable development by helping companies organize deliveries more efficiently and by providing a simplified CO₂ emission estimate.
@@ -137,6 +137,63 @@ Open the browser at http://localhost:3000
  Node.js + Express (backend API)
  CORS
  CSS / simple styling
+
+ ## Test user
+
+The application does not require login.
+No authentication required.
+
+## Backend API
+
+Backend is a Node.js Express server.
+
+API endpoint used in the application:
+
+GET /deliveries
+
+URL:
+http://localhost:5000/deliveries
+
+## API Documentation
+
+GET /deliveries:
+returns a list of deliveries.
+
+[
+  {
+    "id": 1,
+    "delivery_name": "Package A",
+    "distance_km": 5,
+    "status": "pending"
+  }
+]
+
+## Database
+
+This application doesn´t use a database.
+
+Delivery data is stored in the backend server (server.js).
+
+## Issues
+
+Data is not persistent because backend
+stores deliveries in memory. When the server
+restarts, the data resets.
+
+## References
+
+React documentation
+https://react.dev/
+
+Express documentation
+https://expressjs.com/
+
+React Router documentation
+https://reactrouter.com/
+
+## Screenshots
+
+Liiitteenä
 
 ## React 2
 - Forms and controlled inputs
