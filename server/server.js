@@ -6,8 +6,8 @@ app.use(express.json());
 
 // Alustetaan lista toimituksista
 let deliveries = [
-  { id: 1, delivery_name: "Package A", status: "pending", distance_km: 5 },
-  { id: 2, delivery_name: "Package B", status: "delivered", distance_km: 12 },
+  { id: 1, delivery_name: "Package A", status: "pending", distance: 5 },
+  { id: 2, delivery_name: "Package B", status: "delivered", distance: 12 },
 ];
 
 app.get("/deliveries", (req, res) => {

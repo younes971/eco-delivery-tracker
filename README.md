@@ -110,6 +110,34 @@ https://tranquil-quokka-fae4a8.netlify.app/#/
 - State and props
 - Deployed application
 
+## How to run Locally
+### Backend
+
+Open terminal in the server folder:
+
+cd server
+npm install
+npm start
+
+The server runs on port 5000
+
+### Frontend
+
+Open terminal in the main project folder:
+
+npm install
+npm start
+
+Open the browser at http://localhost:3000
+
+## Technologies
+
+ React (frontend)
+ React Router (navigation)
+ Node.js + Express (backend API)
+ CORS
+ CSS / simple styling
+
 ## React 2
 - Forms and controlled inputs
 - Shared state with useState and props
